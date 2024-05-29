@@ -1,0 +1,12 @@
+<div>
+    @for (joke of punJokes; track $index) {
+        <br>  
+        @if ($index != 0) {
+            <app-joke
+            [jokeID]="punJokes[$index].id"
+            [jokeSetup]="punJokes[$index].setup"
+            [jokeDelivery]="punJokes[$index].delivery"></app-joke>
+            <br>
+        }
+    }
+</div>

@@ -1,0 +1,16 @@
+div{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    border: 1px black solid;
+    display: block;
+    padding: 10px;
+}
+.body{
+    width: 50vw;
+    background-color: blanchedalmond;
+}
+.header{
+    width: 50vw;
+    background-color: aliceblue;
+}
